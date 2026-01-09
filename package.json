@@ -1,0 +1,19 @@
+{
+  "name": "viceversa-api",
+  "version": "1.0.0",
+  "type": "module"
+}
+```
+
+4. Click **"Commit new file"**
+
+---
+
+## ✅ Correct Structure Should Be:
+```
+viceversa-middleware/
+├── api/
+│   └── submit-form.js
+├── package.json      ← At root
+├── vercel.json       ← At root
+└── README.md
